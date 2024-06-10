@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "downlevelIteration": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "preserveSymlinks": true,
+    "baseUrl": ".",
+    "paths": {
+      "src/__generated__/*": [
+        "src/__generated__/*"
+      ],
+      "src/app/*": [
+        "src/app/*"
+      ],
+      "src/entities/*": [
+        "src/entities/*"
+      ],
+      "src/features/*": [
+        "src/features/*"
+      ],
+      "src/pages/*": [
+        "src/pages/*"
+      ],
+      "src/shared/*": [
+        "src/shared/*"
+      ],
+      "src/widgets/*": [
+        "src/widgets/*"
+      ]
+    },
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules"
+      }
+    ]
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./config/**/*"
+  ]
+}
